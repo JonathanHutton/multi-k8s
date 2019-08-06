@@ -1,4 +1,4 @@
-docker build -t jonathanhutton/multi-client:latest -t jonathanhutton/mulit-client:$SHA -f ./client/Dockerfile ./client
+docker build -t jonathanhutton/multi-client:latest -t jonathanhutton/multi-client:$SHA -f ./client/Dockerfile ./client
 docker build -t jonathanhutton/multi-server:latest -t jonathanhutton/multi-server:$SHA -f ./server/Dockerfile ./server
 docker build -t jonathanhutton/worker:latest -t jonathanhutton/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 
